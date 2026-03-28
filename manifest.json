@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Moodle PDF Downloader",
+  "version": "1.0",
+  "permissions": ["downloads", "scripting", "activeTab"],
+  "host_permissions": ["https://moodle.isep.ipp.pt/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
