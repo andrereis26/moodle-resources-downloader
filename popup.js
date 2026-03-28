@@ -11,7 +11,7 @@ document.getElementById("extract").addEventListener("click", async () => {
     }
 
     if (msg.type === "DONE") {
-      statusEl.textContent = "✅ Done!";
+      statusEl.textContent = "Done!";
     }
   });
 
